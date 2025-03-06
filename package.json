@@ -1,0 +1,59 @@
+{
+  "name": "demo-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "zmp-blank-templates",
+  "repository": "",
+  "license": "UNLICENSED",
+  "browserslist": [
+    "Android >= 5",
+    "IOS >= 9.3",
+    "Edge >= 15",
+    "Safari >= 9.1",
+    "Chrome >= 49",
+    "Firefox >= 31",
+    "Samsung >= 5"
+  ],
+  "scripts": {
+    "login": "zmp login",
+    "start": "zmp start",
+    "deploy": "zmp deploy"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.0",
+    "axios": "^1.8.1",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.23.0",
+    "recoil": "^0.7.7",
+    "redux-persist": "^6.0.0",
+    "zmp-sdk": "latest",
+    "zmp-ui": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.16",
+    "@types/nprogress": "^0.2.3",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^8.3.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sass": "^1.76.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.13",
+    "vite-tsconfig-paths": "^4.3.2",
+    "zmp-vite-plugin": "^1.1.1"
+  }
+}
