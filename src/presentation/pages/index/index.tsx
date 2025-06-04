@@ -7,7 +7,7 @@ const HomePage: React.FunctionComponent = () => {
   return (
     <Page className="relative flex flex-1 flex-col bg-white">
       <Welcome />
-      <Box className="flex-1 overflow-auto">
+      <Box id="main-content" className="flex-1 overflow-auto">
         <ZaloInfo />
       </Box>
     </Page>

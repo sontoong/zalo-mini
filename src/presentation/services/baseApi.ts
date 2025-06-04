@@ -4,7 +4,7 @@ import "nprogress/nprogress.css";
 import { getUserID } from "zmp-sdk";
 import { getAccessToken } from "zmp-sdk/apis";
 
-NProgress.configure({ showSpinner: false });
+NProgress.configure({ showSpinner: false, parent: "#main-content" });
 
 const timeout = 60 * 1000;
 
