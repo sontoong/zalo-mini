@@ -6,16 +6,16 @@ import { createRoot } from "react-dom/client";
 import "leaflet/dist/leaflet.css";
 
 // Tailwind stylesheet
-import "./css/tailwind.css";
+import "./presentation/css/tailwind.css";
 
 // Icons stylesheet
-import "./css/icons.css";
+import "./presentation/css/icons.css";
 
 // ZaUI stylesheet
 import "zmp-ui/zaui.css";
 
 // Your stylesheet
-import "./css/app.scss";
+import "./presentation/css/app.scss";
 
 // Expose app configuration
 import appConfig from "../app-config.json";
@@ -24,6 +24,6 @@ if (!window.APP_CONFIG) {
 }
 
 // Mount the app
-import App from "./components/app";
+import App from "./presentation/components/app";
 const root = createRoot(document.getElementById("app")!);
 root.render(React.createElement(App));
